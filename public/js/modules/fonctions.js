@@ -45,10 +45,9 @@ function count(value,e){
         clearInterval(interval);
       }
       startingNbr+=animationNbr;
-      e.innerHTML = Math.round(startingNbr);
+      e.innerText = Math.round(startingNbr);
     },30);
   };
-
 
 // ! Fonction qui va lancer le tout après 2 sec
 document.addEventListener("DOMContentLoaded", () => {
