@@ -45,7 +45,7 @@ function count(value,e){
         clearInterval(interval);
       }
       startingNbr+=animationNbr;
-      e.innerHTML = Math.round(startingNbr);
+      e.innerText = Math.round(startingNbr);
     },30);
   };
 
