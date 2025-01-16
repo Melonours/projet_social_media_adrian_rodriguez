@@ -49,7 +49,6 @@ function count(value,e){
     },30);
   };
 
-
 // ! Fonction qui va lancer le tout après 2 sec
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout( () => {
