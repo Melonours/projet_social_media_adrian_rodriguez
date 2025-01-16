@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #8E43AB;
+
+    main{
+        height: 800px;
+        width: 100%;
+    }
+
+    section{
+        height: 400px;
+
+        #twitterNbr, #youtubeNbr, #facebookNbr{
+            font-size: 50px ;
+            // font-family: "Roboto Mono";
+        }
+    }
+}
